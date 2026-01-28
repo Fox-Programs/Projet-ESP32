@@ -9,13 +9,13 @@ from umqtt import MQTTClient
 import ssl as ssl_lib
 
 # --- CONFIGURATION À MODIFIER ---
-WIFI_SSID = "FOXconnect"
-WIFI_PASS = "FoxFurryPaws"
-MQTT_BROKER = "ab8b2af6147b4edcac51c6fd3c92f133.s1.eu.hivemq.cloud"
+WIFI_SSID = ""
+WIFI_PASS = ""
+MQTT_BROKER = ""
 MQTT_PORT = 8883
-MQTT_USER = "Facon_Alexis"
-MQTT_PASS = "DpAsyqP6eck9jr9"
-MQTT_CLIENT_ID = "ESP32_EMETTEUR_ALEXIS"
+MQTT_USER = ""
+MQTT_PASS = ""
+MQTT_CLIENT_ID = ""
 
 # Topics de Publication
 TOPIC_TEMP = b"esp32/telemetrie/temperature"

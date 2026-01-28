@@ -9,15 +9,15 @@ import utime
 from lcd_lib import LCD
 
 # --- CONFIGURATION ---
-WIFI_SSID = "FOXconnect"
-WIFI_PASS = "FoxFurryPaws"
+WIFI_SSID = ""
+WIFI_PASS = ""
 
 # --- CONFIGURATION MQTT SECURISEE
-MQTT_BROKER = "ab8b2af6147b4edcac51c6fd3c92f133.s1.eu.hivemq.cloud"
+MQTT_BROKER = ""
 MQTT_PORT = 8883
-MQTT_USER = "Facon_Alexis"
-MQTT_PASS = "DpAsyqP6eck9jr9"
-MQTT_CLIENT_ID = "ESP32_RECEPTEUR_ALEXIS"
+MQTT_USER = ""
+MQTT_PASS = ""
+MQTT_CLIENT_ID = ""
 
 
 # Topics de Souscription

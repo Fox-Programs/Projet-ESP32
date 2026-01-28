@@ -1,0 +1,51 @@
+/* style.css */
+
+body {
+    background-color: #f4f7f6;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to right, #007bff, #0056b3);
+    border-radius: 0 0 10px 10px;
+}
+
+.dashboard-widget {
+    /* Style pour les cartes de widget */
+    cursor: grab; /* Indique que l'élément est déplaçable */
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.dashboard-widget:hover .card {
+    /* Effet léger au survol pour indiquer qu'il est déplaçable */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    font-weight: bold;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#mqtt-status.bg-success {
+    background-color: #28a745 !important;
+}
+
+#mqtt-status.bg-danger {
+    background-color: #dc3545 !important;
+}
+
+/* Styles pour le graphique (facultatif) */
+canvas {
+    max-height: 250px;
+}
+
+/* Style de la zone de glisser-déposer */
+.sortable-ghost {
+    opacity: 0.4;
+    background-color: #c8e0ff; /* Couleur lorsque l'élément est en cours de déplacement */
+}

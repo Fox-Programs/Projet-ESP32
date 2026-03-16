@@ -1,5 +1,5 @@
 🏠 Système IoT de Surveillance Domestique (ESP32 + MQTT + Firebase)
-Ce projet consiste en une plateforme IoT complète permettant de surveiller une habitation à l'aide de deux unités ESP32, d'un broker MQTT distant et d'une application web interactive.
+Ce projet consiste en une plateforme IoT complète à l'aide de deux unités ESP32, d'un broker MQTT distant et d'une application web interactive.
 
 📋 Fonctionnalités
 🔌 Unité Capteurs (ESP32 n°1)
